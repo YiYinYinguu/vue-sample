@@ -1,0 +1,529 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: "Quicksand", sans-serif, helvetica;
+	font-size: 14px;
+	background-color: #f3f9ff;
+	color: #ccc;
+	scrollbar-base-color: #9ccf4c;
+	scrollbar-arrow-color: #9ccf4c;
+	border-color: #9ccf4c;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	background-image: url(../../assets/img/background-1.png);
+}
+.router-link-active {
+	color: #9ccf4c !important;
+}
+.desk {
+	display: none;
+}
+
+.desk a {
+	display: none;
+}
+
+.page {
+	position: relative;
+	top: 60px;
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+.welcome {
+	top: 20px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+a {
+	color: #666;
+	display: block;
+}
+
+a:hover,
+.cert a:hover,
+.orange a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited,
+.cert a:visited,
+.orange a:visited {
+	text-decoration: none;
+}
+
+
+.bg-info {
+	background-color: #fff !important;
+}
+
+a.nav-link.nuxt-link-exact-active.nuxt-link-active {
+	color: #9ccf4c;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+	color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #ccc;
+}
+
+.navbar-nav {
+	margin-bottom: -26px;
+}
+
+.navbar-dark,
+.navbar-toggler {
+	color: rgb(6, 6, 6, 1) !important;
+	border-color: rgba(6, 6, 6, 0.1) !important;
+	background-color: #323f4b !important;
+}
+
+/*Wrapper for page content to push down footer */
+
+
+a:focus {
+	outline: 0px auto -webkit-focus-ring-color;
+}
+
+/* Accordian */
+
+.v-collapse-content {
+	max-height: 0;
+	transition: max-height .9s ease-out;
+	overflow: hidden;
+	padding: 0
+}
+
+.v-collapse-content-end {
+	transition: max-height .9s ease-in;
+	max-height: 500px
+}
+
+.v-collapse .header {
+	background-color: #9ccf4c;
+	padding: 10px 0px;
+	border-bottom: #323f4b 3px solid;
+	color: #fff;
+	cursor: pointer;
+}
+
+.v-collapse .header h4 {
+	color: #fff;
+}
+
+.v-collapse .content {
+	border: none;
+	background-color: #323f4b;
+	padding: 0 15px;
+}
+
+.v-collapse .content p {
+	padding: 5px 10px 0 10px;
+}
+
+.v-collapse .content img {
+	width: 100%;
+	height: auto;
+}
+
+/* Accordian end */
+
+/* BUTTONS */
+
+.btn-custom-orange {
+	border-radius: 0px;
+	padding: 4px 12px;
+	font-size: 18px;
+	background-color: #ff9900;
+	color: #fff !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+.btn-custom-orange:hover {
+	background-color: #d70;
+	color: #333 !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+.logo {
+	position: relative;
+	top: 0px;
+	left: 20px;
+	width: 80px;
+}
+
+.detail {
+	position: relative;
+	text-align: left;
+	z-index: 2;
+}
+
+.orange,
+.orange a {
+	color: #9ccf4c;
+}
+
+
+.text {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: auto;
+	text-align: justify;
+	font-size: 130%;
+	font-weight: bold;
+	color: #000;
+}
+
+h1 {
+	color: #323f4b;
+}
+
+h3 {
+	font-family: "Century Gothic", sans-serif, helvetica;
+	color: #9ccf4c;
+	font-size: 12pt;
+}
+
+h4 {
+	font-family: "Century Gothic", sans-serif, helvetica;
+	color: #9ccf4c;
+	font-size: 16pt;
+}
+
+h5 {
+	color: #9ccf4c;
+	font-size: 16pt;
+	margin: 4px;
+}
+
+.heading {
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 900px;
+	height: auto;
+	z-index: 1;
+}
+
+.heading h2 {
+	font-size: 350%;
+}
+
+.pad-show,
+.mobile-show {
+	visibility: collapse;
+}
+
+.pad-text {
+	visibility: hidden;
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #9ccf4c;
+}
+
+/* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+	background-color: #7c2929;
+}
+
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+	background-color: black;
+}
+
+/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+/* SCROLL BAR end */
+
+.email {
+	display: inline-block;
+}
+
+.download-box {
+	width: 100%;
+	text-align: center;
+}
+
+/* X X X X MOBILE  GLOBAL X X X  */
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #171c21;
+		color: #ddd;
+	}
+
+	.bg-info {
+		background-color: #000 !important;
+	}
+
+	.navbar-inverse {
+		background-color: rgba(0, 0, 0, 0.85);
+	}
+
+	.welcome,
+	.contact {
+		display: none;
+	}
+
+	.page {
+		top: 0px;
+	}
+
+	.button-box {
+		width: 100%;
+		height: auto;
+	}
+
+	#wrap {
+		margin: 0;
+		padding: 60px 10px;
+	}
+
+	.mobile-btn {
+		display: block;
+	}
+
+	.mobile-btn li {
+		visibility: visible;
+	}
+
+	.mobile-logo {
+		visibility: visible;
+		height: 120px;
+	}
+
+	.pad {
+		visibility: collapse;
+		height: 0px;
+	}
+
+	.pad a {
+		visibility: collapse;
+		height: 0px;
+	}
+
+	.pad-text {
+		visibility: visible;
+		width: 100%;
+		text-align: center;
+	}
+
+	.heading {
+		left: 0px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4
+	{
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 30px;
+		padding-left: 0px;
+		line-height: 37px;
+	}
+
+	h1:after {
+		top: unset;
+		left: 0%;
+		width: 80%;
+	}
+
+	.heading,
+	.product,
+	.text,
+	.orange {
+		width: 100%;
+	}
+
+	.mystic img {
+		width: 100%;
+		height: auto;
+	}
+
+	.text {
+		font-size: 100%;
+	}
+
+	.detail {
+		left: 0px;
+		width: 100%;
+	}
+
+	.mystic {
+		top: 0px;
+		padding: 0 15px;
+	}
+
+	.mobile,
+	.logo-text {
+		display: none;
+	}
+
+	.mobile img {
+		visibility: hidden;
+	}
+
+	.desk,
+	.desk a {
+		display: block;
+	}
+
+	.logo {
+		left: 12px;
+	}
+
+	.product table {
+		margin: 0 auto;
+	}
+
+	h1 {
+		color: #9ccf4c;
+		padding: 20px 15px 20px 20px;
+		left: 1%;
+		width: 90%;
+		letter-spacing: 0px;
+		word-spacing: normal;
+	}
+
+	.graphic h1 {
+		top: 15px;
+	}
+
+	.v-collapse .header {
+
+		text-align: center;
+	}
+
+	#goog-fixurl {
+		display: none;
+	}
+
+	.graphic {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.graphic p {
+		width: 100%;
+		text-align: center;
+		right: unset;
+		padding: 0 10px;
+		bottom: 0;
+	}
+
+	.panel-default {
+		border: 0px #222 solid;
+		border-bottom-width: 10px;
+	}
+}
+
+/* X X X X MOBILE  PORTRAIT X X X  */
+
+@media only screen and (max-width: 768px) and (orientation:portrait) {
+	.graphic img {
+		height: 500px;
+		width: auto;
+		top: -40px;
+		left: -80%;
+		position: relative;
+	}
+
+	.hip img {
+		left: 0%;
+	}
+
+	.navbar-nav>li>a {
+		line-height: 30px;
+	}
+
+	.navbar-nav {
+		margin-bottom: 0;
+	}
+	.detail {
+		margin-bottom: 40px;
+	}
+
+}
+
+/* X X X X  TABLET GLOBAL X X X  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	.pad,
+	.pad a {
+		display: none;
+	}
+
+	.desk,
+	.desk a {
+		display: block;
+	}
+}
+
+/* X X X X Portrate TABLET  X X X  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.container {
+		width: 80%;
+	}
+
+	.center {
+		height: 850px;
+	}
+
+	.graphic img {
+		height: 700px;
+		width: auto;
+		left: -35%;
+		position: relative;
+	}
+
+	.graphic p {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mystic img {
+		width: 80%;
+		height: auto;
+	}
+}
+
+/* X X X X Landscape TABLET  X X X  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.navbar-inverse {
+		padding-left: 1%;
+	}
+}
