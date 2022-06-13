@@ -1,7 +1,7 @@
 <template>
     <div class="page row justify-content-center">
         <div class="col-sm-8 col-md-6 col-lg-5">
-            <h1>geo data</h1>
+            <h1>vue sample</h1>
             <div class="sorter">
                 sort data :
                 <select v-model="currentOrder">
@@ -62,9 +62,9 @@
         </div>
 
         <div class="col-sm-12 col-md-0 col-lg-5 welcome">
-            <router-link to="/geo-data">
+            <router-link to="/vue-sample">
                 <img
-                    :src="require('../../src/assets/img/Railway-Track-CMYK.svg')"
+                    :src="require('../../src/assets/img/el-camino.svg')"
                     alt="code-sample logo"
                 />
             </router-link>
@@ -79,10 +79,10 @@ import axios from "axios";
 export default {
     name: "geoData",
         metaInfo: {
-            title: "geo data",
+            title: "vue sample",
 
             // override the parent template and just use the above title only
-            titleTemplate: "%s | geo data",
+            titleTemplate: "%s | vue sample",
             meta: [
                 {
                     name: "description",

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import welcomeView from '../views/welcome-view.vue'
-import geoData from '../views/geo-data.vue'
+import vueSample from '../views/vue-sample.vue'
 import contactView from '../views/contact-view.vue'
 
 Vue.use(VueRouter)
@@ -13,10 +13,11 @@ const routes = [
     component: welcomeView
   },
   {
-    path: '/geo-data',
-    name: 'geo data',
-    component: geoData
+    path: '/vue-sample',
+    name: 'vue sample',
+    component: vueSample
   },
+
   {
     path: '/contact',
     name: 'contact',

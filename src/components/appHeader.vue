@@ -3,7 +3,7 @@
         <b-navbar toggleable="lg" type="dark" variant="info">
             <b-navbar-brand href="http://web-candy.com"
                 ><img
-                    :src="require('../assets/img/logo_senceive.svg')"
+                    :src="require('../assets/img/vue-sample-logo-2.svg')"
                     alt="web-candy logo"
                     width=auto
                     height="50px"
@@ -14,8 +14,8 @@
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav>
 
-                    <router-link to="/geo-data" class="nav-link"
-                        >geo-data</router-link
+                    <router-link to="/vue-sample" class="nav-link"
+                        >vue sample</router-link
                     >
                     
                     <router-link to="/contact" class="nav-link">contact</router-link>

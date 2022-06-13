@@ -14,7 +14,7 @@ export default {
         return {
             title: "default",
             // override the parent template and just use the above title only
-            titleTemplate: "%s | geo data",
+            titleTemplate: "%s | vue sample",
         };
     },
     data() {
@@ -66,15 +66,15 @@ nav a.router-link-exact-active {
     display: inline-block;
     border-radius: 15px;
     border: 2px solid #fff;
-    background-color: #9ccf4c;
+    background-color: #f90;
     color: #fff;
     text-decoration: none;
     padding: 10px 30px;
 }
 
 .button--green:hover {
-        border: 2px solid #9ccf4c;
-    color: #9ccf4c;
+        border: 2px solid #f90;
+    color: #f90;
     background-color: #000F;
 }
 

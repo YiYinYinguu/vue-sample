@@ -8,16 +8,16 @@ body {
 	font-size: 14px;
 	background-color: #f3f9ff;
 	color: #ccc;
-	scrollbar-base-color: #9ccf4c;
-	scrollbar-arrow-color: #9ccf4c;
-	border-color: #9ccf4c;
+	scrollbar-base-color: #f90;
+	scrollbar-arrow-color: #f90;
+	border-color: #f90;
 	font-weight: 600;
 	margin: 0;
 	padding: 0;
 	background-image: url(../../assets/img/background-1.png);
 }
 .router-link-active {
-	color: #9ccf4c !important;
+	color: #f90 !important;
 }
 .desk {
 	display: none;
@@ -65,7 +65,7 @@ a:visited,
 }
 
 a.nav-link.nuxt-link-exact-active.nuxt-link-active {
-	color: #9ccf4c;
+	color: #f90;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -110,7 +110,7 @@ a:focus {
 }
 
 .v-collapse .header {
-	background-color: #9ccf4c;
+	background-color: #f90;
 	padding: 10px 0px;
 	border-bottom: #323f4b 3px solid;
 	color: #fff;
@@ -170,7 +170,7 @@ a:focus {
 
 .orange,
 .orange a {
-	color: #9ccf4c;
+	color: #f90;
 }
 
 
@@ -191,18 +191,18 @@ h1 {
 
 h3 {
 	font-family: "Century Gothic", sans-serif, helvetica;
-	color: #9ccf4c;
+	color: #f90;
 	font-size: 12pt;
 }
 
 h4 {
 	font-family: "Century Gothic", sans-serif, helvetica;
-	color: #9ccf4c;
+	color: #f90;
 	font-size: 16pt;
 }
 
 h5 {
-	color: #9ccf4c;
+	color: #f90;
 	font-size: 16pt;
 	margin: 4px;
 }
@@ -237,7 +237,7 @@ h5 {
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #9ccf4c;
+	background-color: #f90;
 }
 
 /* the new scrollbar will have a flat appearance with the set background color */
@@ -287,7 +287,6 @@ h5 {
 		background-color: rgba(0, 0, 0, 0.85);
 	}
 
-	.welcome,
 	.contact {
 		display: none;
 	}
@@ -408,7 +407,7 @@ h5 {
 	}
 
 	h1 {
-		color: #9ccf4c;
+		color: #f90;
 		padding: 20px 15px 20px 20px;
 		left: 1%;
 		width: 90%;

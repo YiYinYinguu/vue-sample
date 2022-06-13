@@ -2,7 +2,7 @@
     <div class="container">
         <div>
             <big-logo></big-logo>
-            <h1 class="title">geo data</h1>
+            <h1 class="title">vue sample</h1>
             <div class="links">
                 <div @click="getMenu()" class="button--green">welcome</div>
             </div>
@@ -18,7 +18,7 @@ export default {
             title: "Welcome",
 
             // override the parent template and just use the above title only
-            titleTemplate: "%s | geo-data",
+            titleTemplate: "%s | vue-sample",
             meta: [
                 {
                     name: "description",
@@ -46,7 +46,7 @@ export default {
     methods: {
         getMenu() {  
             this.$store.commit("updateMenu",true);    
-            this.$router.push("/geo-data")
+            this.$router.push("/vue-sample")
         },
     },
 };

@@ -44,7 +44,7 @@ export default {
             title: "Contact Roland Alderson",
 
             // override the parent template and just use the above title only
-            titleTemplate: "%s | geo data",
+            titleTemplate: "%s | vue sample",
             meta: [
                 {
                     name: "description",
