@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks"
+    width="810" height="331" viewBox="0 0 810 331">
+    <rect width="810" height="331" fill="white" />
+    <g fill="none" stroke-miterlimit="10" transform="translate(5,53)">
+        <g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+            <g transform="translate(0,0)">
+                <path class="background" aria-hidden="true" d="M0.5,0.5h800v200h-800Z" stroke="#ddd" />
+                <g>
+                    <g class="mark-group role-axis" aria-hidden="true">
+                        <g transform="translate(0.5,200.5)">
+                            <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                            <g>
+                                <g class="mark-rule role-axis-grid" pointer-events="none">
+                                    <line transform="translate(50,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(150,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(250,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(350,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(450,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(550,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(650,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(750,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1"
+                                        opacity="1" />
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                    </g>
+                    <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis"
+                        aria-label="X-axis titled 'Kodak’s Share Price' for a discrete scale with 8 values: 1990, 1995, 2000, 2005, 2010, ending with 2021">
+                        <g transform="translate(0.5,200.5)">
+                            <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                            <g>
+                                <g class="mark-rule role-axis-tick" pointer-events="none">
+                                    <line transform="translate(50,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(150,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(250,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(350,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(450,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(550,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(650,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    <line transform="translate(750,0)" x2="0" y2="5" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                </g>
+                                <g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="middle"
+                                        transform="translate(50,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">1990</text><text text-anchor="middle"
+                                        transform="translate(150,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">1995</text><text text-anchor="middle"
+                                        transform="translate(250,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">2000</text><text text-anchor="middle"
+                                        transform="translate(350,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">2005</text><text text-anchor="middle"
+                                        transform="translate(450,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">2010</text><text text-anchor="middle"
+                                        transform="translate(550,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">2015</text><text text-anchor="middle"
+                                        transform="translate(650,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">2020</text><text text-anchor="middle"
+                                        transform="translate(750,19)" font-family="sans-serif" font-size="15px"
+                                        font-weight="bold" fill="#000" opacity="1">2021</text></g>
+                                <g class="mark-rule role-axis-domain">
+                                    <line transform="translate(0,0)" x2="800" y2="0" stroke="#888" stroke-width="1"
+                                        opacity="1" />
+                                    </g>
+                                <g class="mark-text role-axis-title">
+                                    <text class="titled" text-anchor="middle"
+                                        transform="translate(400,-228)" font-family="sans-serif" font-size="25px"
+                                        font-weight="bold" fill="#000" opacity="1">Kodak’s Share Price
+                                    </text>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                    </g>
+                    <g class="mark-group role-scope layer_0_pathgroup" role="graphics-object"
+                        aria-roledescription="group mark container">
+                            <path class="background" aria-hidden="true" d="M0,0h800v200h-800Z" />
+                            <g>
+                                <g class="line mark-line role-mark layer_0_marks" role="graphics-object">
+                                    <path class="line_Cost"
+                                        aria-label="Kodak’s Share Price: 1990; population: 28.85; type: Cost Per Person"
+                                        role="graphics-symbol" aria-roledescription="line mark"
+                                        d="M50,95.0909090909091L150,92.21818181818182L250,82.29090909090911L350,66.25454545454545L450,41.92727272727272L550,17.78181818181819L650,29.454545454545467L750,6.145454545454543"
+                                        stroke="#F5590D" stroke-width="2" />
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" display="none" />
+                            <path class="background" aria-hidden="true" d="M0,0h800v200h-800Z" />
+                            <g>
+                                <g class="mark-line role-mark layer_0_marks" role="graphics-object">
+                                    <path class="line_Total" aria-label="Kodak’s Share Price: 1990; population: 2.88; type: Total Cost"
+                                        role="graphics-symbol" aria-roledescription="line mark"
+                                        d="M50,189.52727272727273L150,189.23636363636365L250,188.25454545454545L350,186.65454545454546L450,184.21818181818182L550,181.78181818181818L650,182.94545454545454L750,180.61818181818182"
+                                        stroke="#7AC0ED" stroke-width="2" />
+                                </g>
+                            <path class="foreground" aria-hidden="true" d="" display="none" />
+                        </g>
+                    </g>
+                    <g class="mark-symbol role-mark layer_1_marks point" role="graphics-object"
+                        aria-roledescription="symbol mark container">
+                        <path aria-label="year: 1990; population: 28.85; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(50,95.0909090909091)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 1995; population: 29.64; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(150,92.21818181818182)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2000; population: 32.37; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(250,82.29090909090911)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2005; population: 36.78; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(350,66.25454545454545)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2010; population: 43.47; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(450,41.92727272727272)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2015; population: 50.11; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(550,17.78181818181819)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2020; population: 46.9; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(650,29.454545454545467)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2021; population: 53.31; type: Cost Per Person" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(750,6.145454545454543)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#F5590D" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 1990; population: 2.88; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(50,189.52727272727273)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 1995; population: 2.96; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(150,189.23636363636365)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2000; population: 3.23; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(250,188.25454545454545)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2005; population: 3.67; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(350,186.65454545454546)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2010; population: 4.34; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(450,184.21818181818182)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2015; population: 5.01; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(550,181.78181818181818)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2020; population: 4.69; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(650,182.94545454545454)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                        <path aria-label="year: 2021; population: 5.33; type: Total Cost" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(750,180.61818181818182)"
+                            d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
+                            fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1" />
+                    </g>
+                    <g class="mark-text role-mark layer_2_marks" role="graphics-object"
+                        aria-roledescription="text mark container"><text aria-label="year: 1990; population: 28.85"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(50,82.0909090909091)" font-family="sans-serif" font-size="15px"
+                            fill="black">28.85</text><text aria-label="year: 1995; population: 29.64"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(150,79.21818181818182)" font-family="sans-serif" font-size="15px"
+                            fill="black">29.64</text><text aria-label="year: 2000; population: 32.37"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(250,69.29090909090911)" font-family="sans-serif" font-size="15px"
+                            fill="black">32.37</text><text aria-label="year: 2005; population: 36.78"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(350,53.25454545454545)" font-family="sans-serif" font-size="15px"
+                            fill="black">36.78</text><text aria-label="year: 2010; population: 43.47"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(450,28.927272727272722)" font-family="sans-serif" font-size="15px"
+                            fill="black">43.47</text><text aria-label="year: 2015; population: 50.11"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(550,4.781818181818188)" font-family="sans-serif" font-size="15px"
+                            fill="black">50.11</text><text aria-label="year: 2020; population: 46.9"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(650,16.454545454545467)" font-family="sans-serif" font-size="15px"
+                            fill="black">46.9</text><text aria-label="year: 2021; population: 53.31"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(750,-6.854545454545457)" font-family="sans-serif" font-size="15px"
+                            fill="black">53.31</text><text aria-label="year: 1990; population: 2.88"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(50,176.52727272727273)" font-family="sans-serif" font-size="15px"
+                            fill="black">2.88</text><text aria-label="year: 1995; population: 2.96"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(150,176.23636363636365)" font-family="sans-serif" font-size="15px"
+                            fill="black">2.96</text><text aria-label="year: 2000; population: 3.23"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(250,175.25454545454545)" font-family="sans-serif" font-size="15px"
+                            fill="black">3.23</text><text aria-label="year: 2005; population: 3.67"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(350,173.65454545454546)" font-family="sans-serif" font-size="15px"
+                            fill="black">3.67</text><text aria-label="year: 2010; population: 4.34"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(450,171.21818181818182)" font-family="sans-serif" font-size="15px"
+                            fill="black">4.34</text><text aria-label="year: 2015; population: 5.01"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(550,168.78181818181818)" font-family="sans-serif" font-size="15px"
+                            fill="black">5.01</text><text aria-label="year: 2020; population: 4.69"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(650,169.94545454545454)" font-family="sans-serif" font-size="15px"
+                            fill="black">4.69</text><text aria-label="year: 2021; population: 5.33"
+                            role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
+                            transform="translate(750,167.61818181818182)" font-family="sans-serif" font-size="15px"
+                            fill="black">5.33</text></g>
+                    <g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend"
+                        aria-label="Symbol legend for stroke color with 2 values: Cost Per Person, Total Cost">
+                        <g transform="translate(300,240)">
+                            <path class="background" aria-hidden="true"
+                                d="M5,0L201,0C203.75957512247,0,206,2.24042487753,206,5L206,28C206,30.75957512247,203.75957512247,33,201,33L5,33C2.24042487753,33,0,30.75957512247,0,28L0,5C0,2.24042487753,2.24042487753,0,5,0Z"
+                                pointer-events="none" fill="#EBECEE" />
+                            <g>
+                                <g class="mark-group role-legend-entry">
+                                    <g transform="translate(10,10)">
+                                        <path class="background" aria-hidden="true" d="M0,0h0v0h0Z"
+                                            pointer-events="none" />
+                                        <g>
+                                            <g class="mark-group role-scope" role="graphics-object"
+                                                aria-roledescription="group mark container">
+                                                <g transform="translate(0,0.25)">
+                                                    <path class="background" aria-hidden="true"
+                                                        d="M0,0h104.037109375v12.5h-104.037109375Z"
+                                                        pointer-events="none" opacity="1" />
+                                                    <g>
+                                                        <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                                                            <path transform="translate(6,6)"
+                                                                d="M5,0A5,5,0,1,1,-5,0A5,5,0,1,1,5,0" fill="white"
+                                                                stroke="#F5590D" stroke-width="1.5" opacity="1" />
+                                                        </g>
+                                                        <g class="mark-text role-legend-label" pointer-events="none">
+                                                            <text text-anchor="start" transform="translate(16,10)"
+                                                                font-family="sans-serif" font-size="12px" fill="#000"
+                                                                opacity="1">Cost Per Person</text></g>
+                                                    </g>
+                                                    <path class="foreground" aria-hidden="true" d=""
+                                                        pointer-events="none" display="none" />
+                                                </g>
+                                                <g transform="translate(116,0.25)">
+                                                    <path class="background" aria-hidden="true"
+                                                        d="M0,0h69.35546875v12.5h-69.35546875Z" pointer-events="none"
+                                                        opacity="1" />
+                                                    <g>
+                                                        <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                                                            <path transform="translate(6,6)"
+                                                                d="M5,0A5,5,0,1,1,-5,0A5,5,0,1,1,5,0" fill="white"
+                                                                stroke="#7AC0ED" stroke-width="1.5" opacity="1" />
+                                                        </g>
+                                                        <g class="mark-text role-legend-label" pointer-events="none">
+                                                            <text text-anchor="start" transform="translate(16,10)"
+                                                                font-family="sans-serif" font-size="12px" fill="#000"
+                                                                opacity="1">Total Cost</text></g>
+                                                    </g>
+                                                    <path class="foreground" aria-hidden="true" d=""
+                                                        pointer-events="none" display="none" />
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <path class="foreground" aria-hidden="true" d="" pointer-events="none"
+                                            display="none" />
+                                    </g>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                    </g>
+                </g>
+                <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+        </g>
+    </g>
+</svg>

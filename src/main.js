@@ -6,6 +6,8 @@ import {
   BootstrapVue,
   //IconsPlugin
 } from 'bootstrap-vue'
+// import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -27,7 +29,7 @@ Vue.use(VueCollapse);
 Vue.config.productionTip = false
 /* GLOBAL CSS */
 /* note this is outside of 'components' and global for the whole site */
-import './../src/assets/css/global.css'
+import './assets/css/global.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 // SOLID
 import {
