@@ -15,7 +15,7 @@ export default new Vuex.Store({
     insightType: ['MIN', 'MAX', 'MEAN'],
     spec: {
       title: "Kodak’s Share Price",
-      column: 7,
+      column: 8,
       data: {
         values: [
           {"x": "1990", "Kodak’s Share Price": 28.85, "type": "Cost Per Person"},
@@ -75,7 +75,7 @@ export default new Vuex.Store({
       ]
     },
     insights: null
-  
+
   },
   getters: {
   },

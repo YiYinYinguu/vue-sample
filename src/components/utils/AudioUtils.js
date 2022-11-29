@@ -1,66 +1,134 @@
 function generateTranscript(text, cb) {
   var sdk = require("microsoft-cognitiveservices-speech-sdk");
   var subscriptionKey = "09336b849227439bb2432601c4850a28";
-  var serviceRegion = "eastus"; 
+  var serviceRegion = "eastus";
   // var filename = "YourAudioFile.wav";
 
   // var audioConfig = sdk.AudioConfig.fromAudioFileOutput(filename);
   var speechConfig = sdk.SpeechConfig.fromSubscription(subscriptionKey, serviceRegion);
-  
   // create the speech synthesizer.
   // var synthesizer = new sdk.SpeechSynthesizer(speechConfig, audioConfig);
   var synthesizer = new sdk.SpeechSynthesizer(speechConfig, null);
 
   const trans = {
-      transcript: text,
-      words: [],
+    transcript: text,
+    words: [],
   };
 
   const startIndices = []
-  
+
   var preTime = 0;
+
   synthesizer.wordBoundary = function (s, e) {
-      // console.log("(WordBoundary), Text: " + e.text + ", Audio offset: " + e.audioOffset / 10000 + "ms.");
-      let curTime = parseFloat((e.audioOffset / 10000000).toFixed(3));
-      trans.words.push({
-          startTime: preTime,
-          endTime: curTime,
-          selected: false,
-          speakerTag: 0
-      })
-      startIndices.push(e.textOffset);
-      preTime = curTime;
+    // console.log("(WordBoundary), Text: " + e.text + ", Audio offset: " + e.audioOffset / 10000 + "ms.");
+    let curTime = parseFloat((e.audioOffset / 10000000).toFixed(3));
+    trans.words.push({
+      startTime: preTime,
+      endTime: curTime,
+      selected: false,
+      speakerTag: 0
+    })
+    startIndices.push(e.textOffset);
+    preTime = curTime;
   };
 
   synthesizer.speakTextAsync(text,
-      function (result) {
-          if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
-              console.log("synthesis finished.");
-          } else {
-              console.error("Speech synthesis canceled, " + result.errorDetails +
-                  "\nDid you update the subscription info?");
-          }
-          synthesizer.close();
-          synthesizer = undefined;
+    function (result) {
+      if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
+        console.log("synthesis finished.");
+      } else {
+        console.error("Speech synthesis canceled, " + result.errorDetails +
+          "\nDid you update the subscription info?");
+      }
+      synthesizer.close();
+      synthesizer = undefined;
 
-          for (let i = 0; i < startIndices.length; i++) {
-            var word = '';
-            if (i != startIndices.length - 1) {
-                word = text.slice(startIndices[i], startIndices[i+1])
-            } else {
-                word = text.slice(startIndices[i])
-            }
-            trans.words[i].word = word.trim()
+      for (let i = 0; i < startIndices.length; i++) {
+        var word = '';
+        if (i != startIndices.length - 1) {
+          word = text.slice(startIndices[i], startIndices[i + 1])
+        } else {
+          word = text.slice(startIndices[i])
+        }
+        trans.words[i].word = word.trim()
+      }
+      const audioContext = new AudioContext();
+      cb(trans, audioContext.decodeAudioData(result.audioData));
+    },
+    function (err) {
+      console.trace("err - " + err);
+      synthesizer.close();
+      synthesizer = undefined;
+      cb(undefined, undefined)
+    });
+}
+
+async function getEndTime(text) {
+  return new Promise((resolve, reject) => {
+    var sdk = require("microsoft-cognitiveservices-speech-sdk");
+    var subscriptionKey = "09336b849227439bb2432601c4850a28";
+    var serviceRegion = "eastus";
+    // var filename = "YourAudioFile.wav";
+
+    // var audioConfig = sdk.AudioConfig.fromAudioFileOutput(filename);
+    var speechConfig = sdk.SpeechConfig.fromSubscription(subscriptionKey, serviceRegion);
+
+    // create the speech synthesizer.
+    // var synthesizer = new sdk.SpeechSynthesizer(speechConfig, audioConfig);
+    var synthesizer = new sdk.SpeechSynthesizer(speechConfig, null);
+
+    const trans = {
+      transcript: text,
+      words: [],
+    };
+
+    const startIndices = []
+
+    var preTime = 0;
+
+    synthesizer.wordBoundary = function (s, e) {
+      let curTime = parseFloat((e.audioOffset / 10000000).toFixed(3));
+      trans.words.push({
+        startTime: preTime,
+        endTime: curTime,
+        selected: false,
+        speakerTag: 0
+      })
+      startIndices.push(e.textOffset);
+      preTime = curTime;
+    };
+
+    synthesizer.speakTextAsync(text,
+      (result) => {
+        if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
+          console.log("synthesis finished.");
+        } else {
+          console.error("Speech synthesis canceled, " + result.errorDetails +
+            "\nDid you update the subscription info?");
+        }
+        synthesizer.close();
+        synthesizer = undefined;
+
+        for (let i = 0; i < startIndices.length; i++) {
+          var word = '';
+          if (i != startIndices.length - 1) {
+            word = text.slice(startIndices[i], startIndices[i + 1])
+          } else {
+            word = text.slice(startIndices[i])
           }
-          const audioContext = new AudioContext();
-          cb(trans, audioContext.decodeAudioData(result.audioData));
+          trans.words[i].word = word.trim()
+        }
+        resolve(trans.words[trans.words.length - 1].endTime);
+        // cb(trans.words[trans.words.length-1].endTime);
+        // return trans.words[trans.words.length-1].endTime
       },
-      function (err) {
-          console.trace("err - " + err);
-          synthesizer.close();
-          synthesizer = undefined;
-          cb(undefined, undefined)
+      (err) => {
+        // console.trace("err - " + err);
+        synthesizer.close();
+        // synthesizer = undefined;
+        reject(err);
       });
+  })
 }
 
 
@@ -76,13 +144,13 @@ function dataURItoBlob(dataURI) {
   for (let i = 0; i < byteString.length; i++) {
     intArray[i] = byteString.charCodeAt(i);
   }
-  return new Blob([intArray], {type: mimeString});
+  return new Blob([intArray], { type: mimeString });
 }
 
 async function blobToAudioBuffer(blob) {
   if (!blob) {
     return new Promise((resolve) => {
-      resolve(new AudioBuffer({length: 8000, numberOfChannels: 2, sampleRate: 8000}));
+      resolve(new AudioBuffer({ length: 8000, numberOfChannels: 2, sampleRate: 8000 }));
     });
   }
   const arrayBuffer = await blob.arrayBuffer();
@@ -163,12 +231,12 @@ function concatAudio(audioBuffers, extendTimes) {
 
 function audioBufferToBlob(abuffer) {
   let numOfChan = abuffer.numberOfChannels,
-      length = abuffer.length * numOfChan * 2 + 44,
-      buffer = new ArrayBuffer(length),
-      view = new DataView(buffer),
-      channels = [], i, sample,
-      offset = 0,
-      pos = 0;
+    length = abuffer.length * numOfChan * 2 + 44,
+    buffer = new ArrayBuffer(length),
+    view = new DataView(buffer),
+    channels = [], i, sample,
+    offset = 0,
+    pos = 0;
 
   // write WAVE header
   // "RIFF"
@@ -216,7 +284,7 @@ function audioBufferToBlob(abuffer) {
   }
 
   // create Blob
-  return new Blob([buffer], {type: "audio/wav"});
+  return new Blob([buffer], { type: "audio/wav" });
 
   function setUint16(data) {
     view.setUint16(pos, data, true);
@@ -238,4 +306,5 @@ export const AudioUtils = {
   generateTranscript,
   extend1Sec,
   copy3Sec,
+  getEndTime
 }
