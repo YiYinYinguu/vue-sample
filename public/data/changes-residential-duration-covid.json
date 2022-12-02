@@ -1,0 +1,982 @@
+[
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-02-17",
+    "residential": 14.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-02-27",
+    "residential": 13.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-03-08",
+    "residential": 12.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-03-18",
+    "residential": 11.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-03-28",
+    "residential": 14.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-04-07",
+    "residential": 17.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-04-17",
+    "residential": 16.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-04-27",
+    "residential": 14.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-05-07",
+    "residential": 13.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-05-17",
+    "residential": 10.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-05-27",
+    "residential": 10.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-06-06",
+    "residential": 8.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-06-16",
+    "residential": 8.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-06-26",
+    "residential": 8.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-07-06",
+    "residential": 8.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-07-16",
+    "residential": 11.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-07-26",
+    "residential": 18.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-08-05",
+    "residential": 19.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-08-15",
+    "residential": 16.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-08-25",
+    "residential": 16.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-09-04",
+    "residential": 12.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-09-14",
+    "residential": 10.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-09-24",
+    "residential": 9.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-10-04",
+    "residential": 9.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-10-14",
+    "residential": 10.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-10-24",
+    "residential": 6.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-11-03",
+    "residential": 5.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-11-13",
+    "residential": 6.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-11-23",
+    "residential": 6.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-12-03",
+    "residential": 9.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-12-13",
+    "residential": 13.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2020-12-23",
+    "residential": 13.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-01-02",
+    "residential": 14.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-01-12",
+    "residential": 13.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-01-22",
+    "residential": 10.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-02-01",
+    "residential": 10.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-02-11",
+    "residential": 10.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-02-21",
+    "residential": 12.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-03-03",
+    "residential": 8.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-03-13",
+    "residential": 7.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-03-23",
+    "residential": 7.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-04-02",
+    "residential": 8.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-04-12",
+    "residential": 8.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-04-22",
+    "residential": 6.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-05-02",
+    "residential": 7.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-05-12",
+    "residential": 5.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-05-22",
+    "residential": 7.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-06-01",
+    "residential": 6.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-06-11",
+    "residential": 6.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-06-21",
+    "residential": 5.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-07-01",
+    "residential": 7.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-07-11",
+    "residential": 5.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-07-21",
+    "residential": 6.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-07-31",
+    "residential": 6.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-08-10",
+    "residential": 6.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-08-20",
+    "residential": 5.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-08-30",
+    "residential": 5.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-09-09",
+    "residential": 4.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-09-19",
+    "residential": 4.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-09-29",
+    "residential": 4.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-10-09",
+    "residential": 8.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-10-19",
+    "residential": 10.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-10-29",
+    "residential": 4.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-11-08",
+    "residential": 3.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-11-18",
+    "residential": 3.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-11-28",
+    "residential": 3.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-12-08",
+    "residential": 3.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-12-18",
+    "residential": 3.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2021-12-28",
+    "residential": 7.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-01-07",
+    "residential": 6.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-01-17",
+    "residential": 9.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-01-27",
+    "residential": 10.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-02-06",
+    "residential": 19.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-02-16",
+    "residential": 17.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-02-26",
+    "residential": 20.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-03-08",
+    "residential": 22.714
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-03-18",
+    "residential": 20.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-03-28",
+    "residential": 18.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-04-07",
+    "residential": 15.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-04-17",
+    "residential": 14.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-04-27",
+    "residential": 9.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-05-07",
+    "residential": 8.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-05-17",
+    "residential": 8.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-05-27",
+    "residential": 6.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-06-06",
+    "residential": 7.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-06-16",
+    "residential": 7.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-06-26",
+    "residential": 6.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-07-06",
+    "residential": 12.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-07-16",
+    "residential": 6.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-07-26",
+    "residential": 6.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-08-05",
+    "residential": 7.286
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-08-15",
+    "residential": 7.857
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-08-25",
+    "residential": 11.0
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-09-04",
+    "residential": 7.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-09-14",
+    "residential": 7.571
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-09-24",
+    "residential": 6.143
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-10-04",
+    "residential": 7.429
+  },
+  {
+    "Entity": "Hong Kong",
+    "Day": "2022-10-14",
+    "residential": 5.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-02-17",
+    "residential": 1.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-02-27",
+    "residential": -0.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-03-08",
+    "residential": -1.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-03-18",
+    "residential": 6.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-03-28",
+    "residential": 17.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-04-07",
+    "residential": 18.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-04-17",
+    "residential": 18.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-04-27",
+    "residential": 17.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-05-07",
+    "residential": 14.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-05-17",
+    "residential": 14.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-05-27",
+    "residential": 12.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-06-06",
+    "residential": 10.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-06-16",
+    "residential": 9.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-06-26",
+    "residential": 8.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-07-06",
+    "residential": 9.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-07-16",
+    "residential": 8.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-07-26",
+    "residential": 8.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-08-05",
+    "residential": 8.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-08-15",
+    "residential": 7.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-08-25",
+    "residential": 7.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-09-04",
+    "residential": 7.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-09-14",
+    "residential": 7.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-09-24",
+    "residential": 6.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-10-04",
+    "residential": 6.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-10-14",
+    "residential": 7.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-10-24",
+    "residential": 7.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-11-03",
+    "residential": 7.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-11-13",
+    "residential": 8.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-11-23",
+    "residential": 9.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-12-03",
+    "residential": 11.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-12-13",
+    "residential": 9.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2020-12-23",
+    "residential": 9.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-01-02",
+    "residential": 14.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-01-12",
+    "residential": 11.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-01-22",
+    "residential": 10.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-02-01",
+    "residential": 10.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-02-11",
+    "residential": 10.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-02-21",
+    "residential": 12.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-03-03",
+    "residential": 8.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-03-13",
+    "residential": 7.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-03-23",
+    "residential": 6.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-04-02",
+    "residential": 6.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-04-12",
+    "residential": 5.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-04-22",
+    "residential": 6.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-05-02",
+    "residential": 5.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-05-12",
+    "residential": 4.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-05-22",
+    "residential": 4.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-06-01",
+    "residential": 5.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-06-11",
+    "residential": 4.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-06-21",
+    "residential": 4.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-07-01",
+    "residential": 4.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-07-11",
+    "residential": 6.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-07-21",
+    "residential": 4.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-07-31",
+    "residential": 4.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-08-10",
+    "residential": 4.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-08-20",
+    "residential": 4.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-08-30",
+    "residential": 4.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-09-09",
+    "residential": 5.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-09-19",
+    "residential": 4.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-09-29",
+    "residential": 3.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-10-09",
+    "residential": 3.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-10-19",
+    "residential": 3.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-10-29",
+    "residential": 4.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-11-08",
+    "residential": 4.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-11-18",
+    "residential": 4.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-11-28",
+    "residential": 8.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-12-08",
+    "residential": 4.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-12-18",
+    "residential": 4.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2021-12-28",
+    "residential": 10.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-01-07",
+    "residential": 11.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-01-17",
+    "residential": 9.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-01-27",
+    "residential": 7.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-02-06",
+    "residential": 7.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-02-16",
+    "residential": 4.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-02-26",
+    "residential": 6.143
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-03-08",
+    "residential": 3.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-03-18",
+    "residential": 4.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-03-28",
+    "residential": 3.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-04-07",
+    "residential": 3.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-04-17",
+    "residential": 3.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-04-27",
+    "residential": 2.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-05-07",
+    "residential": 2.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-05-17",
+    "residential": 2.286
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-05-27",
+    "residential": 2.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-06-06",
+    "residential": 3.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-06-16",
+    "residential": 3.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-06-26",
+    "residential": 3.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-07-06",
+    "residential": 5.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-07-16",
+    "residential": 3.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-07-26",
+    "residential": 4.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-08-05",
+    "residential": 3.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-08-15",
+    "residential": 3.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-08-25",
+    "residential": 5.714
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-09-04",
+    "residential": 2.857
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-09-14",
+    "residential": 2.571
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-09-24",
+    "residential": 2.429
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-10-04",
+    "residential": 3.0
+  },
+  {
+    "Entity": "United States",
+    "Day": "2022-10-14",
+    "residential": 3.0
+  }
+]

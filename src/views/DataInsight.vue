@@ -10,6 +10,7 @@ import vegaSVG from '../../public/svg/2.svg';
 import testSVG from '../../public/svg/test.svg';
 import {AudioUtils} from "../components/utils/AudioUtils";
 import {InsightUtils} from "../components/utils/InsightUtils";
+// import dataObjectFromFile from '../../public/data/changes-residential-duration-covid.json';
 export default {
     name: "DataInsight",
     data: function () {
@@ -26,11 +27,13 @@ export default {
     },
     mounted() {
         // MeasureMethod = 'SUM' | 'COUNT' | 'MAX' | 'MIN' | 'MEAN' | 'COUNT_DISTINCT';
+        // console.log(dataObjectFromFile)
         const all_insights =  getDataInsights(this.data, {
             limit: 30,
             homogeneous: true,
-            visualization: true
+            // visualization: true
         })
+        console.log(all_insights)
         const L1_description = InsightUtils.generateL1Description(this.$store.state.spec)
         this.description.push(L1_description)
         this.insights.push({description: L1_description})

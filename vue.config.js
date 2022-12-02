@@ -20,10 +20,11 @@ module.exports = {
         use: [
           'vue-svg-loader',
         ],
-      }]
+      },
+      ]
     },
     resolve: {
-      extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     },
   }
 }
