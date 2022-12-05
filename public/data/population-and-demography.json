@@ -1,0 +1,722 @@
+[
+    {
+        "Country": "China",
+        " Year": 1950,
+        "Population growth rate": 1.76
+    },
+    {
+        "Country": "China",
+        " Year": 1951,
+        "Population growth rate": 1.75
+    },
+    {
+        "Country": "China",
+        " Year": 1952,
+        "Population growth rate": 2.3
+    },
+    {
+        "Country": "China",
+        " Year": 1953,
+        "Population growth rate": 2.05
+    },
+    {
+        "Country": "China",
+        " Year": 1954,
+        "Population growth rate": 2.25
+    },
+    {
+        "Country": "China",
+        " Year": 1955,
+        "Population growth rate": 2.24
+    },
+    {
+        "Country": "China",
+        " Year": 1956,
+        "Population growth rate": 2.01
+    },
+    {
+        "Country": "China",
+        " Year": 1957,
+        "Population growth rate": 2.38
+    },
+    {
+        "Country": "China",
+        " Year": 1958,
+        "Population growth rate": 1.95
+    },
+    {
+        "Country": "China",
+        " Year": 1959,
+        "Population growth rate": 0.65
+    },
+    {
+        "Country": "China",
+        " Year": 1960,
+        "Population growth rate": -0.04
+    },
+    {
+        "Country": "China",
+        " Year": 1961,
+        "Population growth rate": 0.37
+    },
+    {
+        "Country": "China",
+        " Year": 1962,
+        "Population growth rate": 2.45
+    },
+    {
+        "Country": "China",
+        " Year": 1963,
+        "Population growth rate": 3.26
+    },
+    {
+        "Country": "China",
+        " Year": 1964,
+        "Population growth rate": 2.71
+    },
+    {
+        "Country": "China",
+        " Year": 1965,
+        "Population growth rate": 2.68
+    },
+    {
+        "Country": "China",
+        " Year": 1966,
+        "Population growth rate": 2.53
+    },
+    {
+        "Country": "China",
+        " Year": 1967,
+        "Population growth rate": 2.28
+    },
+    {
+        "Country": "China",
+        " Year": 1968,
+        "Population growth rate": 2.74
+    },
+    {
+        "Country": "China",
+        " Year": 1969,
+        "Population growth rate": 2.58
+    },
+    {
+        "Country": "China",
+        " Year": 1970,
+        "Population growth rate": 2.61
+    },
+    {
+        "Country": "China",
+        " Year": 1971,
+        "Population growth rate": 2.37
+    },
+    {
+        "Country": "China",
+        " Year": 1972,
+        "Population growth rate": 2.21
+    },
+    {
+        "Country": "China",
+        " Year": 1973,
+        "Population growth rate": 2.1
+    },
+    {
+        "Country": "China",
+        " Year": 1974,
+        "Population growth rate": 1.88
+    },
+    {
+        "Country": "China",
+        " Year": 1975,
+        "Population growth rate": 1.6
+    },
+    {
+        "Country": "China",
+        " Year": 1976,
+        "Population growth rate": 1.5
+    },
+    {
+        "Country": "China",
+        " Year": 1977,
+        "Population growth rate": 1.33
+    },
+    {
+        "Country": "China",
+        " Year": 1978,
+        "Population growth rate": 1.32
+    },
+    {
+        "Country": "China",
+        " Year": 1979,
+        "Population growth rate": 1.42
+    },
+    {
+        "Country": "China",
+        " Year": 1980,
+        "Population growth rate": 1.47
+    },
+    {
+        "Country": "China",
+        " Year": 1981,
+        "Population growth rate": 1.54
+    },
+    {
+        "Country": "China",
+        " Year": 1982,
+        "Population growth rate": 1.69
+    },
+    {
+        "Country": "China",
+        " Year": 1983,
+        "Population growth rate": 1.4
+    },
+    {
+        "Country": "China",
+        " Year": 1984,
+        "Population growth rate": 1.48
+    },
+    {
+        "Country": "China",
+        " Year": 1985,
+        "Population growth rate": 1.57
+    },
+    {
+        "Country": "China",
+        " Year": 1986,
+        "Population growth rate": 1.71
+    },
+    {
+        "Country": "China",
+        " Year": 1987,
+        "Population growth rate": 1.8
+    },
+    {
+        "Country": "China",
+        " Year": 1988,
+        "Population growth rate": 1.64
+    },
+    {
+        "Country": "China",
+        " Year": 1989,
+        "Population growth rate": 1.65
+    },
+    {
+        "Country": "China",
+        " Year": 1990,
+        "Population growth rate": 1.72
+    },
+    {
+        "Country": "China",
+        " Year": 1991,
+        "Population growth rate": 1.19
+    },
+    {
+        "Country": "China",
+        " Year": 1992,
+        "Population growth rate": 1.05
+    },
+    {
+        "Country": "China",
+        " Year": 1993,
+        "Population growth rate": 0.98
+    },
+    {
+        "Country": "China",
+        " Year": 1994,
+        "Population growth rate": 0.93
+    },
+    {
+        "Country": "China",
+        " Year": 1995,
+        "Population growth rate": 0.86
+    },
+    {
+        "Country": "China",
+        " Year": 1996,
+        "Population growth rate": 0.8
+    },
+    {
+        "Country": "China",
+        " Year": 1997,
+        "Population growth rate": 0.75
+    },
+    {
+        "Country": "China",
+        " Year": 1998,
+        "Population growth rate": 0.71
+    },
+    {
+        "Country": "China",
+        " Year": 1999,
+        "Population growth rate": 0.66
+    },
+    {
+        "Country": "China",
+        " Year": 2000,
+        "Population growth rate": 0.71
+    },
+    {
+        "Country": "China",
+        " Year": 2001,
+        "Population growth rate": 0.65
+    },
+    {
+        "Country": "China",
+        " Year": 2002,
+        "Population growth rate": 0.63
+    },
+    {
+        "Country": "China",
+        " Year": 2003,
+        "Population growth rate": 0.61
+    },
+    {
+        "Country": "China",
+        " Year": 2004,
+        "Population growth rate": 0.62
+    },
+    {
+        "Country": "China",
+        " Year": 2005,
+        "Population growth rate": 0.62
+    },
+    {
+        "Country": "China",
+        " Year": 2006,
+        "Population growth rate": 0.63
+    },
+    {
+        "Country": "China",
+        " Year": 2007,
+        "Population growth rate": 0.65
+    },
+    {
+        "Country": "China",
+        " Year": 2008,
+        "Population growth rate": 0.66
+    },
+    {
+        "Country": "China",
+        " Year": 2009,
+        "Population growth rate": 0.68
+    },
+    {
+        "Country": "China",
+        " Year": 2010,
+        "Population growth rate": 0.67
+    },
+    {
+        "Country": "China",
+        " Year": 2011,
+        "Population growth rate": 0.65
+    },
+    {
+        "Country": "China",
+        " Year": 2012,
+        "Population growth rate": 0.74
+    },
+    {
+        "Country": "China",
+        " Year": 2013,
+        "Population growth rate": 0.65
+    },
+    {
+        "Country": "China",
+        " Year": 2014,
+        "Population growth rate": 0.66
+    },
+    {
+        "Country": "China",
+        " Year": 2015,
+        "Population growth rate": 0.56
+    },
+    {
+        "Country": "China",
+        " Year": 2016,
+        "Population growth rate": 0.61
+    },
+    {
+        "Country": "China",
+        " Year": 2017,
+        "Population growth rate": 0.59
+    },
+    {
+        "Country": "China",
+        " Year": 2018,
+        "Population growth rate": 0.38
+    },
+    {
+        "Country": "China",
+        " Year": 2019,
+        "Population growth rate": 0.3
+    },
+    {
+        "Country": "China",
+        " Year": 2020,
+        "Population growth rate": 0.13
+    },
+    {
+        "Country": "China",
+        " Year": 2021,
+        "Population growth rate": 0.0
+    },
+    {
+        "Country": "World",
+        " Year": 1950,
+        "Population growth rate": 1.73
+    },
+    {
+        "Country": "World",
+        " Year": 1951,
+        "Population growth rate": 1.74
+    },
+    {
+        "Country": "World",
+        " Year": 1952,
+        "Population growth rate": 1.93
+    },
+    {
+        "Country": "World",
+        " Year": 1953,
+        "Population growth rate": 1.9
+    },
+    {
+        "Country": "World",
+        " Year": 1954,
+        "Population growth rate": 1.98
+    },
+    {
+        "Country": "World",
+        " Year": 1955,
+        "Population growth rate": 2.0
+    },
+    {
+        "Country": "World",
+        " Year": 1956,
+        "Population growth rate": 1.96
+    },
+    {
+        "Country": "World",
+        " Year": 1957,
+        "Population growth rate": 2.05
+    },
+    {
+        "Country": "World",
+        " Year": 1958,
+        "Population growth rate": 1.98
+    },
+    {
+        "Country": "World",
+        " Year": 1959,
+        "Population growth rate": 1.7
+    },
+    {
+        "Country": "World",
+        " Year": 1960,
+        "Population growth rate": 1.57
+    },
+    {
+        "Country": "World",
+        " Year": 1961,
+        "Population growth rate": 1.66
+    },
+    {
+        "Country": "World",
+        " Year": 1962,
+        "Population growth rate": 2.1
+    },
+    {
+        "Country": "World",
+        " Year": 1963,
+        "Population growth rate": 2.27
+    },
+    {
+        "Country": "World",
+        " Year": 1964,
+        "Population growth rate": 2.15
+    },
+    {
+        "Country": "World",
+        " Year": 1965,
+        "Population growth rate": 2.08
+    },
+    {
+        "Country": "World",
+        " Year": 1966,
+        "Population growth rate": 2.03
+    },
+    {
+        "Country": "World",
+        " Year": 1967,
+        "Population growth rate": 1.98
+    },
+    {
+        "Country": "World",
+        " Year": 1968,
+        "Population growth rate": 2.08
+    },
+    {
+        "Country": "World",
+        " Year": 1969,
+        "Population growth rate": 2.04
+    },
+    {
+        "Country": "World",
+        " Year": 1970,
+        "Population growth rate": 2.04
+    },
+    {
+        "Country": "World",
+        " Year": 1971,
+        "Population growth rate": 1.96
+    },
+    {
+        "Country": "World",
+        " Year": 1972,
+        "Population growth rate": 1.96
+    },
+    {
+        "Country": "World",
+        " Year": 1973,
+        "Population growth rate": 1.93
+    },
+    {
+        "Country": "World",
+        " Year": 1974,
+        "Population growth rate": 1.88
+    },
+    {
+        "Country": "World",
+        " Year": 1975,
+        "Population growth rate": 1.79
+    },
+    {
+        "Country": "World",
+        " Year": 1976,
+        "Population growth rate": 1.77
+    },
+    {
+        "Country": "World",
+        " Year": 1977,
+        "Population growth rate": 1.74
+    },
+    {
+        "Country": "World",
+        " Year": 1978,
+        "Population growth rate": 1.74
+    },
+    {
+        "Country": "World",
+        " Year": 1979,
+        "Population growth rate": 1.77
+    },
+    {
+        "Country": "World",
+        " Year": 1980,
+        "Population growth rate": 1.79
+    },
+    {
+        "Country": "World",
+        " Year": 1981,
+        "Population growth rate": 1.81
+    },
+    {
+        "Country": "World",
+        " Year": 1982,
+        "Population growth rate": 1.84
+    },
+    {
+        "Country": "World",
+        " Year": 1983,
+        "Population growth rate": 1.77
+    },
+    {
+        "Country": "World",
+        " Year": 1984,
+        "Population growth rate": 1.78
+    },
+    {
+        "Country": "World",
+        " Year": 1985,
+        "Population growth rate": 1.78
+    },
+    {
+        "Country": "World",
+        " Year": 1986,
+        "Population growth rate": 1.82
+    },
+    {
+        "Country": "World",
+        " Year": 1987,
+        "Population growth rate": 1.82
+    },
+    {
+        "Country": "World",
+        " Year": 1988,
+        "Population growth rate": 1.77
+    },
+    {
+        "Country": "World",
+        " Year": 1989,
+        "Population growth rate": 1.76
+    },
+    {
+        "Country": "World",
+        " Year": 1990,
+        "Population growth rate": 1.75
+    },
+    {
+        "Country": "World",
+        " Year": 1991,
+        "Population growth rate": 1.62
+    },
+    {
+        "Country": "World",
+        " Year": 1992,
+        "Population growth rate": 1.56
+    },
+    {
+        "Country": "World",
+        " Year": 1993,
+        "Population growth rate": 1.5
+    },
+    {
+        "Country": "World",
+        " Year": 1994,
+        "Population growth rate": 1.46
+    },
+    {
+        "Country": "World",
+        " Year": 1995,
+        "Population growth rate": 1.43
+    },
+    {
+        "Country": "World",
+        " Year": 1996,
+        "Population growth rate": 1.4
+    },
+    {
+        "Country": "World",
+        " Year": 1997,
+        "Population growth rate": 1.37
+    },
+    {
+        "Country": "World",
+        " Year": 1998,
+        "Population growth rate": 1.34
+    },
+    {
+        "Country": "World",
+        " Year": 1999,
+        "Population growth rate": 1.32
+    },
+    {
+        "Country": "World",
+        " Year": 2000,
+        "Population growth rate": 1.33
+    },
+    {
+        "Country": "World",
+        " Year": 2001,
+        "Population growth rate": 1.31
+    },
+    {
+        "Country": "World",
+        " Year": 2002,
+        "Population growth rate": 1.29
+    },
+    {
+        "Country": "World",
+        " Year": 2003,
+        "Population growth rate": 1.27
+    },
+    {
+        "Country": "World",
+        " Year": 2004,
+        "Population growth rate": 1.27
+    },
+    {
+        "Country": "World",
+        " Year": 2005,
+        "Population growth rate": 1.26
+    },
+    {
+        "Country": "World",
+        " Year": 2006,
+        "Population growth rate": 1.26
+    },
+    {
+        "Country": "World",
+        " Year": 2007,
+        "Population growth rate": 1.27
+    },
+    {
+        "Country": "World",
+        " Year": 2008,
+        "Population growth rate": 1.26
+    },
+    {
+        "Country": "World",
+        " Year": 2009,
+        "Population growth rate": 1.26
+    },
+    {
+        "Country": "World",
+        " Year": 2010,
+        "Population growth rate": 1.25
+    },
+    {
+        "Country": "World",
+        " Year": 2011,
+        "Population growth rate": 1.24
+    },
+    {
+        "Country": "World",
+        " Year": 2012,
+        "Population growth rate": 1.25
+    },
+    {
+        "Country": "World",
+        " Year": 2013,
+        "Population growth rate": 1.22
+    },
+    {
+        "Country": "World",
+        " Year": 2014,
+        "Population growth rate": 1.21
+    },
+    {
+        "Country": "World",
+        " Year": 2015,
+        "Population growth rate": 1.17
+    },
+    {
+        "Country": "World",
+        " Year": 2016,
+        "Population growth rate": 1.16
+    },
+    {
+        "Country": "World",
+        " Year": 2017,
+        "Population growth rate": 1.13
+    },
+    {
+        "Country": "World",
+        " Year": 2018,
+        "Population growth rate": 1.07
+    },
+    {
+        "Country": "World",
+        " Year": 2019,
+        "Population growth rate": 1.03
+    },
+    {
+        "Country": "World",
+        " Year": 2020,
+        "Population growth rate": 0.92
+    },
+    {
+        "Country": "World",
+        " Year": 2021,
+        "Population growth rate": 0.82
+    }
+]

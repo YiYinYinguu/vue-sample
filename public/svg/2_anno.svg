@@ -82,12 +82,12 @@
                             </path>
                         </g>
                     </g>
-                    <g class="mark-group role-scope layer_0_pathgroup" role="graphics-object"
+                    <g class="mark-group role-scope layer_0_layer_0_pathgroup" role="graphics-object"
                         aria-roledescription="group mark container">
                         <g transform="translate(0,0)">
                             <path class="background" aria-hidden="true" d="M0,0h800v200h-800Z"></path>
                             <g>
-                                <g class="mark-line role-mark layer_0_marks" role="graphics-object"
+                                <g class="mark-line role-mark layer_0_layer_0_marks" role="graphics-object"
                                     aria-roledescription="line mark container">
                                     <path aria-label="year: 1990; population: 28.85; type: Cost Per Person"
                                         role="graphics-symbol" aria-roledescription="line mark"
@@ -100,7 +100,7 @@
                         <g transform="translate(0,0)">
                             <path class="background" aria-hidden="true" d="M0,0h800v200h-800Z"></path>
                             <g>
-                                <g class="mark-line role-mark layer_0_marks" role="graphics-object"
+                                <g class="mark-line role-mark layer_0_layer_0_marks" role="graphics-object"
                                     aria-roledescription="line mark container">
                                     <path aria-label="year: 1990; population: 2.88; type: Total Cost"
                                         role="graphics-symbol" aria-roledescription="line mark"
@@ -111,7 +111,7 @@
                             <path class="foreground" aria-hidden="true" d="" display="none"></path>
                         </g>
                     </g>
-                    <g class="mark-symbol role-mark layer_1_marks" role="graphics-object"
+                    <g class="mark-symbol role-mark layer_0_layer_1_marks" role="graphics-object"
                         aria-roledescription="symbol mark container">
                         <path aria-label="year: 1990; population: 28.85; type: Cost Per Person" role="graphics-symbol"
                             aria-roledescription="point" transform="translate(50,95.0909090909091)"
@@ -178,7 +178,7 @@
                             d="M6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,-6.123724356957945,0A6.123724356957945,6.123724356957945,0,1,1,6.123724356957945,0"
                             fill="white" stroke="#7AC0ED" stroke-width="3" opacity="1"></path>
                     </g>
-                    <g class="mark-text role-mark layer_2_marks" role="graphics-object"
+                    <g class="mark-text role-mark layer_1_marks" role="graphics-object"
                         aria-roledescription="text mark container"><text aria-label="year: 1990; population: 28.85"
                             role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
                             transform="translate(50,82.0909090909091)" font-family="sans-serif" font-size="15px"
@@ -228,6 +228,13 @@
                             role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle"
                             transform="translate(750,167.61818181818182)" font-family="sans-serif" font-size="15px"
                             fill="black">5.33</text></g>
+                    <g class="mark-symbol role-mark layer_2_marks" role="graphics-object"
+                        aria-roledescription="symbol mark container">
+                        <path aria-label="year: 2020; population: 46.9" role="graphics-symbol"
+                            aria-roledescription="point" transform="translate(650,69.45454545454547)"
+                            d="M-2.2587697572631282,15.811388300841896L2.2587697572631282,15.811388300841896L2.2587697572631282,-1.976423537605237L6.324555320336758,-1.976423537605237L0,-15.811388300841896L-6.324555320336758,-1.976423537605237L-2.2587697572631282,-1.976423537605237Z"
+                            fill="black" stroke-width="2" opacity="0.7"></path>
+                    </g>
                     <g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend"
                         aria-label="Symbol legend for stroke color with 2 values: Cost Per Person, Total Cost">
                         <g transform="translate(300,240)">
@@ -294,12 +301,12 @@
                             <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"></path>
                             <g>
                                 <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title"
-                                    aria-label="Title text 'Average price of a ten-person Thanksgiving dinner in  the United States between 1990 to 2021(in U.S. dollars)'"
+                                    aria-label="Title text 'Average Price of a Ten-person Thanksgiving Dinner in the United States between 1990 to 2021 (in U.S. dollars)'"
                                     pointer-events="none"><text text-anchor="middle" transform="translate(0,20)"
                                         font-family="sans-serif" font-size="25px" font-weight="bold" fill="#000"
                                         opacity="1">
-                                        <tspan>Average price of a ten-person Thanksgiving dinner in</tspan>
-                                        <tspan x="0" dy="27">the United States between 1990 to 2021(in U.S. dollars)
+                                        <tspan>Average Price of a Ten-person Thanksgiving Dinner</tspan>
+                                        <tspan x="0" dy="27">in the United States between 1990 to 2021 (in U.S. dollars)
                                         </tspan>
                                     </text></g>
                             </g>

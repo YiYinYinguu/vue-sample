@@ -10,7 +10,7 @@ import vegaSVG from '../../public/svg/2.svg';
 import testSVG from '../../public/svg/test.svg';
 import {AudioUtils} from "../components/utils/AudioUtils";
 import {InsightUtils} from "../components/utils/InsightUtils";
-// import dataObjectFromFile from '../../public/data/changes-residential-duration-covid.json';
+import dataObjectFromFile from '../../public/data/population-and-demography.json';
 export default {
     name: "DataInsight",
     data: function () {
@@ -28,7 +28,14 @@ export default {
     mounted() {
         // MeasureMethod = 'SUM' | 'COUNT' | 'MAX' | 'MIN' | 'MEAN' | 'COUNT_DISTINCT';
         // console.log(dataObjectFromFile)
-        const all_insights =  getDataInsights(this.data, {
+        const new_data = []
+        for( const d of dataObjectFromFile){
+            console.log(d)
+            if(d[' Year'] <= 1970){
+                new_data.push(d)
+            }
+        }
+        const all_insights =  getDataInsights(new_data, {
             limit: 30,
             homogeneous: true,
             // visualization: true
